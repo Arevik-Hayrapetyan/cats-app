@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-weight: 700;
+  text-align: center;
+}
+.sideBar {
+  height: 100vh;
+  background-color: #1976d2;
+  position: fixed;
+  width: 30vh;
+  display: grid;
+  grid-template-rows: 1fr 5fr 0.5fr;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navidationList {
+  text-align: center;
+}
+.link {
+  padding: 10px;
+}
+.link {
+  cursor: pointer;
+}
+button {
+  border: solid 2px #1976d2;
+  background-color: #fff;
+  color: #1976d2;
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
