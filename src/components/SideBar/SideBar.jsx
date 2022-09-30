@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./SideBar.css";
 import { getCategories } from "../../api";
+import "./SideBar.css";
 
 export default function SideBar({ setPage }) {
   const [categories, setCategories] = useState([]);

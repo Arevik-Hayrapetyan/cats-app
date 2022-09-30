@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { getCatData } from "../../api";
 import { nanoid } from "nanoid";
 import "./Grid.css";
+
 export default function Grid({ page }) {
   let { categoryId } = useParams();
   const [catData, setCatData] = useState([]);

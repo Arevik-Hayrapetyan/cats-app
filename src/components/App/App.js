@@ -1,6 +1,6 @@
 import { useState } from "react";
-import SideBar from "../SideBar/SideBar";
 import { Routes, Route } from "react-router-dom";
+import SideBar from "../SideBar/SideBar";
 import Heading from "../Heading/Heading";
 import Grid from "../Grid/Grid";
 import "./App.css";
